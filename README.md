@@ -1,4 +1,4 @@
-pravega
+Pravega Racing Revamp
 =======
 
-Pravega Racing
+This is source code for new web design of Pravega Racing's official site.
