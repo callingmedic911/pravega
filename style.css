@@ -147,6 +147,18 @@ video {
 	max-width: 100%;
 }
 
+.next-section {
+	display: block;
+	font-size: 50px;
+	font-size: 5rem;
+	position: fixed;
+	left: auto;
+	right: 20px;
+	bottom: 25px;
+	margin-left: -21px;
+	z-index: 9999;
+}
+
 /* Global
 --------------------------------------------- */
 
@@ -380,7 +392,8 @@ a.green {
 /* About Page
 --------------------------------------------- */
 
-.about-us .wrap {
+.about-us .wrap,
+.the-team .wrap {
 	margin-bottom: 50px;
 	margin-bottom: 5rem;
 }
@@ -406,6 +419,33 @@ a.green {
 	margin-bottom: 10px;
 	margin-top: 1rem;
 	max-width: 48%;
+}
+
+/* The Tema Page
+--------------------------------------------- */
+
+.dep-name {
+	background: #000;
+	color: #fff;
+	padding: 10px;
+	padding: 1rem;
+	text-align: center;
+}
+
+.dep-section .avatar {
+	margin:0 32px 20px 0;
+	margin: 0 3.2rem 2rem 0;
+	max-width: 250px;
+}
+
+.dep-section .avatar.leftm {
+	margin: 0 32px 32px 16px;
+	margin: 0 3.2rem 3.2rem 1.6rem;
+}
+
+.dep-section .avatar.rightm {
+	margin: 0 0 32px 0;
+	margin: 0 0 3.2rem 0;
 }
 
 /* Sponsors
