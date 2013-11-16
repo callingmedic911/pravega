@@ -147,18 +147,6 @@ video {
 	max-width: 100%;
 }
 
-.next-section {
-	display: block;
-	font-size: 50px;
-	font-size: 5rem;
-	position: fixed;
-	left: auto;
-	right: 20px;
-	bottom: 25px;
-	margin-left: -21px;
-	z-index: 9999;
-}
-
 /* Global
 --------------------------------------------- */
 
