@@ -392,6 +392,19 @@ a.green {
 	margin-bottom: 5rem;
 }
 
+.about-us .about-sec {
+	padding: 50px;
+	padding: 5rem;
+}
+
+.about-us .about-sec.blue {
+	background: #48Bdd6;
+}
+
+.about-us .about-sec.orange {
+	background: #e6b149;
+}
+
 /* The Tema Page
 --------------------------------------------- */
 
