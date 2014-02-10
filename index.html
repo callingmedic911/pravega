@@ -14,7 +14,22 @@
 	<meta name="viewport" content="width=device-width" />
 	<title>Pravega Racing</title>
 	<link href='http://fonts.googleapis.com/css?family=Roboto+Slab|Expletus+Sans:600' rel='stylesheet' type='text/css'>
-	<link rel="stylesheet" href="style.css?1.8.2" type="text/css" media="all">
+	<link rel="stylesheet" href="style.css?1.8.5" type="text/css" media="all">
+	<script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+	<script>
+	$(document).ready(function() {
+		$(".we-are").hover(
+			function () {
+				$(this).addClass("hover active");
+				$(".we-are").addClass("fade-out");
+			},
+			function () {
+				$(this).removeClass("hover active");
+				$(".we-are").removeClass("fade-out");
+			}
+			);
+	});
+	</script>
 </head>
 <body itemscope="itemscope" itemtype="http://schema.org/WebPage">
 	<header class="site-header" role="banner" itemscope="itemscope" itemtype="http://schema.org/WPHeader">
@@ -40,7 +55,7 @@
 	</header>
 	<aside class="event-info">
 	    <div class="wrap">
-               <!-- <p><i class="fawesome">&#xf072;</i>We're going to <a href="http://www.ata.it/it/formulaata/24/formula-sae-italy/" class="highl" target="_blank">FSAE Italy</a> for our upcoming event on <span class="highl">September 13th, 2013</span>.</p>-->
+               <p><i class="fawesome">&#xf072;</i>We're going to <a href="https://www.formulastudent.de/fsc/2014/teams/" class="highl" target="_blank">Formula Student Germany</a> for our upcoming event on <span class="highl">July 29th, 2014</span>.</p>
                 <div class="social">
 	                <span class="before">Stay in touch :</span>
     	            <a href="http://www.facebook.com/pravegaracing" class="social_fb fawesome" target="_blank"></a>

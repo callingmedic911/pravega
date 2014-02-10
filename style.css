@@ -355,7 +355,6 @@ a.green {
 
 .we-are {
 	display: inline-block;
-	opacity: 0.6;
 	padding: 30px 20px;
 	padding: 3rem 2rem;
 	vertical-align: top;
@@ -363,11 +362,18 @@ a.green {
 	-webkit-backface-visibility: hidden;
 }
 
-.we-are:hover {
+.we-are.hover {
 	box-shadow: 0px 6px 25px #ccc;
-	opacity: 1;
 	-webkit-box-shadow: 0px 6px 25px #ccc;
 	-moz-box-shadow: 0px 6px 25px #ccc;
+}
+
+.we-are.fade-out {
+	opacity: 0.6;
+}
+
+.we-are.hover.active {
+	opacity: 1 !important;
 }
 
 .meet-the-team .title:before{
@@ -384,29 +390,6 @@ a.green {
 .the-team .wrap {
 	margin-bottom: 50px;
 	margin-bottom: 5rem;
-}
-
-.about-us .content {
-	max-width: 700px;
-}
-
-.about-us .sidebar {
-	background: #fff;
-	border: 1px solid #ececec;
-	margin-top: 20px;
-	margin-top: 2rem;
-	max-width: 400px;
-	padding: 20px;
-	padding: 2rem;
-	-webkit-box-shadow: -6px 10px 15px rgba(153, 153, 153, 0.75);
-	-moz-box-shadow:    -6px 10px 15px rgba(153, 153, 153, 0.75);
-	box-shadow:         -6px 10px 15px rgba(153, 153, 153, 0.75);
-}
-
-.about-us .sidebar .small {
-	margin-bottom: 10px;
-	margin-top: 1rem;
-	max-width: 48%;
 }
 
 /* The Tema Page
